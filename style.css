@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url(./images/hero__back.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 40px 0;
+}
+
+.navbar {
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.search__input {
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.hero {
+    margin-top: 30px;
+}
+
+.hero h1 {
+    font-size: 54px;
+
+}
+
+.hero button {
+    margin-top: 90px;
+    background: #76B900;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.gaming__content {
+    text-align: center;
+}
+
+.gaming__content h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.gaming__catalog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.gaming__catalog li {
+    width: 290px;
+    border: none;
+    box-shadow: 0px 17px 27px -4px #7d7d7d;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gaming__catalog li h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.gaming__catalog li button {
+    background: none;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer-h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-style: bold;
+    color: #67B900;
+}
+
+.box {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 40px 0;
+    display: flex;
+    gap: 150px;
+}
+
+.footer-text {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 67px 0;
+}
+
+.footer-navbar {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container-2 {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 40px 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 1024px;
+        margin: 0px 20px;
+    }
+
+    .hero h1 {
+        font-size: 44px;
+    }
+
+    .hero button {
+        font-size: 18px;
+    }
+
+    .gaming__catalog {
+        flex-wrap: wrap;
+    }
+
+    .gaming__catalog li {
+        width: 210px;
+        height: 250px;
+    }
+
+    .gaming__content h2 {
+        font-size: 36px;
+    }
+
+    .box {
+        margin: 0px 20px;
+        padding: 40px 0;
+        display: flex;
+        gap: 70px;
+    }
+
+    .box img {
+        width: 50%;
+    }
+
+    .footer-h2 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .container {
+        max-width: 567px;
+        margin: 0px 20px;
+    }
+
+    .hero h1 {
+        font-size: 25px;
+    }
+
+    .hero button {
+        font-size: 14px;
+    }
+
+    .gaming__catalog {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: block;
+        gap: 50px;
+    }
+
+    .gaming__catalog li {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        margin: 20px 0;
+        /* display: block; */
+    }
+
+    .gaming__content h2 {
+        font-size: 13px;
+        width: 200px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box {
+        margin: 0px 15px;
+        padding: 25px 0;
+        display: block;
+
+        justify-content: center;
+        max-width: 567px;
+        height: 200px;
+    }
+
+    .box img {
+        width: 100%;
+    }
+
+    .footer-h2 {
+        font-size: 10px;
+    }
+
+    .container-2 {
+        max-width: 567px;
+
+        padding: 20px 0;
+        display: block;
+        justify-content: center;
+    }
+
+    .footer-text{
+        margin: 0;
+    }
+
+    .footer-navbar {
+        display: flex;
+        flex-direction: column;
+        display: block;
+        margin: 50px 0;
+        text-align: center;
+        gap: 20px;
+    }
+
+
+    .footer-navbar img {
+        /* display: block; */
+        text-align: center;
+        justify-content: center;
+    }
+
+
+}
